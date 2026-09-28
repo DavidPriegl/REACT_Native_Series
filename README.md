@@ -9,7 +9,7 @@ START THE PROJECT:
   make a appwrite.js file inside lib folder
   add the following
   
-  ==================================================================
+  ----------------------------------------------------------------
   
   import { Client, Account, Avatars, Databases } from 'appwrite';
   
@@ -22,8 +22,8 @@ START THE PROJECT:
   export const avatar = new Avatars(client)
   export const databases = new Databases(client)
   
-  ==================================================================
+  ----------------------------------------------------------------
   
-  RUN THE EXPO SERVER:
+  RUN THE EXPO SERVER
   npm install
   npx expo start
