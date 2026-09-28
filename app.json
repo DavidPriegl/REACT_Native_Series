@@ -1,24 +1,29 @@
 {
   "expo": {
+    "scheme": "shelfieapp",
     "name": "REACT_Native_Series",
     "slug": "REACT_Native_Series",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "",
+    "userInterfaceStyle": "dark",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "backgroundColor": "#000000"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "",
+        "backgroundImage": "",
+        "monochromeImage": ""
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": ""
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
   }
 }
