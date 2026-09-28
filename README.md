@@ -10,6 +10,7 @@ START THE PROJECT:
   add the following
   
   ==================================================================
+  
   import { Client, Account, Avatars, Databases } from 'appwrite';
   
   export const client = new Client()
@@ -20,6 +21,7 @@ START THE PROJECT:
   export const account = new Account(client)
   export const avatar = new Avatars(client)
   export const databases = new Databases(client)
+  
   ==================================================================
   
   Run the expo server:
