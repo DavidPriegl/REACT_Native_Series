@@ -24,6 +24,6 @@ START THE PROJECT:
   
   ==================================================================
   
-  Run the expo server:
-    npm install
-    npx expo start
+  RUN THE EXPO SERVER:
+  npm install
+  npx expo start
